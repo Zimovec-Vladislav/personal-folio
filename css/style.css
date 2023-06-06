@@ -39,6 +39,8 @@ p {
     background: #000 url("../img/bg.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+
+    position: relative;
 }
 
 
@@ -144,6 +146,9 @@ p {
     border-radius: 5px;
 }
 
+/* Button Contact Me
+=====================*/
+
 .btn {
     display: inline-block;
 
@@ -169,7 +174,14 @@ p {
 }
 
 
+/* My photo
+==================*/
 
+.author {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
 
 
 
