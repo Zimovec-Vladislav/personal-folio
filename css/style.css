@@ -184,14 +184,58 @@ p {
 }
 
 
+/* Footer
+==================*/
 
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+}
 
+.contacts {
+    display: flex;
+    align-items: center;
+}
 
+.contacts-link {
+    margin-right: 5rem;
 
+    font-size: 1rem;
+    font-weight: 500;
 
+    color: white;
+    text-decoration: none;
+}
 
+.contacts-link:last-child {
+    margin-right: 0px;
+    position: relative;
+}
 
+.contacts-link:last-child:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
 
+    background-color: white;
+
+    pointer-events: none;
+
+    position: absolute;
+    left: 150%;
+    top: 50%;
+}
+
+.contacts-link:hover {
+    text-decoration: underline;
+}
+
+.contacts-icon {
+    margin-right: 5px;
+}
 
 
 
